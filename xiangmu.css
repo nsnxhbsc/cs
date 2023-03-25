@@ -1,0 +1,203 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  font: 12px/1.5 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+  color: #666;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+header .daohang {
+  height: 31px;
+  background-color: #f1f1f1;
+}
+header .daohang .banxin {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+header .daohang .banxin a {
+  line-height: 31px;
+  text-decoration: none;
+  color: #666;
+  margin: 10px;
+}
+header .daohang .banxin a:hover {
+  color: red;
+}
+header .daohang .banxin .zuo1 a {
+  margin: 0;
+}
+header .daohang .banxin .zuo1 a:nth-child(3) {
+  color: red;
+}
+header .daohang .banxin .you1 ul {
+  display: flex;
+  list-style: none;
+}
+header .daohang .banxin .you1 ul .icon-arrow-down-bold {
+  vertical-align: middle;
+  font-size: 10px;
+}
+header .toubu {
+  height: 105px;
+  padding-left: 30px;
+}
+header .toubu .banxin {
+  display: flex;
+  padding-top: 30px;
+  width: 1200px;
+  height: 105px;
+  justify-content: space-between;
+}
+header .toubu .banxin .bo1 {
+  height: 56px;
+}
+header .toubu .banxin .box2 {
+  position: relative;
+  display: flex;
+}
+header .toubu .banxin .box2 ul {
+  position: absolute;
+  list-style: none;
+  display: flex;
+  left: 0;
+  bottom: 20px;
+}
+header .toubu .banxin .box2 ul li {
+  margin-right: 20px;
+}
+header .toubu .banxin .box2 ul li:nth-child(1) {
+  margin-left: 10px;
+}
+header .toubu .banxin .box2 input {
+  width: 445px;
+  height: 36px;
+  border: 2px solid #b1191a;
+  color: #ccc;
+}
+header .toubu .banxin .box2 button {
+  width: 82px;
+  height: 36px;
+  background-color: #b1191a;
+  border: 0;
+  font-size: 16px;
+  color: #fff;
+}
+header .toubu .banxin .box3 {
+  border: #666 solid 1px;
+  display: flex;
+  text-align: center;
+  width: 138px;
+  height: 34px;
+}
+header .toubu .banxin .box3 .gouwuche {
+  height: 12px;
+  width: 20px;
+  color: red;
+  background: url(img/icons.png) -415px -90px;
+  vertical-align: middle;
+}
+header .toubu .banxin .box3 .icon-arrow-right {
+  vertical-align: middle;
+  height: 5px;
+}
+header .hai {
+  height: 47px;
+  border-bottom: red solid 3px;
+}
+header .hai .wei {
+  width: 1200px;
+}
+header .hai .wei .h1 {
+  float: left;
+  width: 209px;
+  height: 47px;
+  margin-left: 30px;
+  background-color: #b1191a;
+  text-align: center;
+  line-height: 47px;
+  color: #ffffff;
+  font-size: 16px;
+}
+header .hai .wei ul {
+  float: left;
+  list-style: none;
+}
+header .hai .wei ul li {
+  float: left;
+  margin-left: 20px;
+  line-height: 47px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+header .xiamian {
+  width: 1200px;
+  padding-top: 20px;
+  font-size: 16px;
+}
+header .xiamian .bankuai1 {
+  height: 25px;
+}
+header .xiamian .bankuai1 ul {
+  list-style: none;
+}
+header .xiamian .bankuai1 ul li {
+  float: left;
+  margin-right: 16px;
+}
+header .xiamian .bankuai2 {
+  height: 590px;
+}
+header .xiamian .bankuai2 .fl1 {
+  float: left;
+  height: 590px;
+  width: 400px;
+}
+header .xiamian .bankuai2 .fl1 .er {
+  height: 400px;
+  border: 1px solid #ccc;
+}
+header .xiamian .bankuai2 .fl1 .bi {
+  height: 60px;
+  margin-top: 60px;
+}
+header .xiamian .bankuai2 .fl1 .bi li {
+  list-style: none;
+  float: left;
+  height: 60px;
+  width: 55px;
+}
+header .xiamian .bankuai2 .fl1 .bi li a {
+  display: block;
+}
+header .xiamian .bankuai2 .fl1 .bi li:nth-child(1) {
+  line-height: 80px;
+}
+header .xiamian .bankuai2 .fl1 .bi li:nth-child(7) {
+  line-height: 80px;
+}
+header .xiamian .bankuai2 .fr1 {
+  height: 437px;
+  float: right;
+  width: 718px;
+}
+header .xiamian .bankuai2 .fr1 .h1 {
+  height: 60px;
+}
+header .xiamian .bankuai2 .fr1 .h1 p {
+  color: red;
+}
+header .xiamian .bankuai2 .fr1 .moban1 {
+  height: 180px;
+  background-color: #fee9eb;
+}
